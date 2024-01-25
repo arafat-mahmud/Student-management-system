@@ -1,5 +1,7 @@
 from django.contrib import admin
-from .models import Department, Course, Student,UserProfile, Class, Attendance
+
+from .models import Department, Course, Student, UserProfile, Class, Attendance
+
 
 # Register your models here.
 
