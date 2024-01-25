@@ -206,7 +206,14 @@ class SaveStudent(forms.ModelForm):
 
     class Meta:
         model = Student
-        fields = ('student_code','first_name','middle_name','last_name','gender','dob','course','contact')
+
+        # <!-- Add Student Middle Name -->
+
+        fields = ('student_code','first_name','last_name','gender','dob','course','contact')
+
+        # fields = ('student_code','first_name','middle_name','last_name','gender','dob','course','contact')
+
+
     
     def clean_student_code(self):
         code = self.cleaned_data['student_code']
