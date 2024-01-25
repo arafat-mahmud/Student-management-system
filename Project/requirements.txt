@@ -1,2 +1,6 @@
 Django==4.0.3
 Pillow
+
+# Super User:
+# user name: admin
+# password: sanon123
